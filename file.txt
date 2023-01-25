@@ -4,6 +4,8 @@ git add . -- if want to add all new/updated files to the staging
 git add --all - to add all the files to the staging 
 git commit -m "some commit" - This commits the staged files, also adds the message to the commite
 git branch -M main - creates a master branch named main
+git remote add origin {git repo link} - creates a repo named origin on remote, origin simply a alias name of the git repo link
+git push -u origin main - pushes the local main repo to origin in remote 
 
 // create a branch and switch to the branch
 $ git checkout -b <branch-name>
